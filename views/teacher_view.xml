@@ -4,9 +4,9 @@
             <field name="name">老师</field>
             <field name="model">jyschool.teacher</field>
             <field name="type">tree</field>
-            <field name="priority">999</field>
+            
             <field name="arch" type="xml">
-                <tree string="老师" create="0" delete="0">
+                <tree string="老师" >
                <field name="name"/>
               
                 </tree>
@@ -16,7 +16,7 @@
             <field name="name">老师</field>
             <field name="model">jyschool.teacher</field>
             <field name="type">form</field>
-            <field name="priority">999</field>
+            
             <field name="arch" type="xml">
                 <form string="老师" >
                     <sheet>
@@ -33,7 +33,7 @@
             <field name="res_model">jyschool.teacher</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
-            <field name="target">current</field>
+           
 
         </record>
 
