@@ -56,5 +56,9 @@
     <menuitem name="Server to list" id="jyschool" parent="jyschool.menu_2"
               action="jyschool.action_server"/>
     -->
+        <menuitem id="parent_menu_1" name="江阴课堂" parent=""  sequence="10"/>
+        <menuitem id="parent_menu_2" name="设置" parent="parent_menu_1"  sequence="999"/>
+        <menuitem id="parent_menu_3" name="开课" parent="parent_menu_1"  sequence="10"/>
+        
   </data>
 </odoo>
