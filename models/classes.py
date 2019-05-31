@@ -8,4 +8,4 @@ class classes(models.Model):
     name = fields.Char()
     teacher = fields.Many2one('jyschool.teacher','授课老师')
     subject = fields.Many2one('jyschool.subject','学科')
-    total = fields.int('开班人数')
+    total = fields.Int('开班人数')
