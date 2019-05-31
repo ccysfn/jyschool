@@ -9,6 +9,8 @@
                 <tree string="班级" >
                <field name="name"/>
               <field name="teacher"/>
+              <field name="subject"/>
+              <field name="total"/>
                 </tree>
             </field>
         </record>
@@ -23,6 +25,8 @@
                     <group>
                <field name="name"/>
               <field name="teacher"/>
+              <field name="subject"/>
+              <field name="total"/>
                     </group>
                     </sheet>
                 </form>
