@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_jyschool_teacher,jyschool.teacher,jyschool.model_jyschool_teacher,base.group_user,1,1,1,1
 access_jyschool_classes,jyschool.classes,jyschool.model_jyschool_classes,base.group_user,1,1,1,1
+access_jyschool_subject,jyschool.subject,jyschool.model_jyschool_subject,base.group_user,1,1,1,1
