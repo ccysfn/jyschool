@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_jyschool_jyschool,jyschool.jyschool,jyschool.model_jyschool_jyschool,,1,1,1,1
+access_jyschool_teacher,jyschool.teacher,jyschool.model_jyschool_teacher,,1,1,1,1
