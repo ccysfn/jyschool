@@ -19,14 +19,16 @@
             <field name="type">form</field>
             <field name="inherit_id" ref="base.view_partner_form" />
             <field name="arch" type="xml">
-                <form string="老师" >
-                    <sheet>
-                    <group>
-               <field name="name"/>
+            <xpath expr="//page[@name='category_id']" position="after">
+             
+                    
+                   
+               
               <field name="sub"/>
-                    </group>
-                    </sheet>
-                </form>
+                  
+                   
+                
+                </xpath>
             </field>
         </record>
         <record id="teacher_action" model="ir.actions.act_window">
